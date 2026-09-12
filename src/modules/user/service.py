@@ -1,6 +1,6 @@
 from sqlalchemy.ext.asyncio import AsyncSession
 from src.core.exceptions import BizException
-from src.modules.user.model import User
+from src.modules.user.user_module import User
 from src.modules.user.schema import UserCreate
 from src.modules.user.repository import UserRepository
 

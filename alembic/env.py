@@ -14,7 +14,7 @@ from src.core.config import get_settings
 from src.core.base_model import Base
  # noqa: F401  每新增模块在此导入
 
-import src.modules.user.model 
+import src.modules.user.user_module
 
 
 # this is the Alembic Config object, which provides
